@@ -3,12 +3,282 @@
 <head>
 <meta charset="utf-8">
 <title>Monitise Mastermind</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="0; url=Main.dc.html">
-<link rel="canonical" href="Main.dc.html">
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
 </head>
 <body>
-<p><a href="Main.dc.html">Continue to Monitise Mastermind</a></p>
-<script>location.replace("Main.dc.html");</script>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#0B7A5C}a:hover{color:#075C45}
+</style>
+</helmet>
+<div style="font-family: 'Inter', system-ui, sans-serif; color: #10213A; background: #FFFFFF; width: 100%; line-height: 1.55">
+
+<header style="border-bottom: 1px solid #E3E8E6; background: #FFFFFF">
+<nav aria-label="Main" style="max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #10213A">
+<span aria-hidden="true" style="width: 34px; height: 34px; border-radius: 8px; background: #10213A; color: #E8B54A; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px">M</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 19px; letter-spacing: -0.01em">Monitise Mastermind</span>
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 15px; font-weight: 500">
+<a href="#how" style="color: #33445A; text-decoration: none">How it works</a>
+<a href="#build" style="color: #33445A; text-decoration: none">What we build</a>
+<a href="#terms" style="color: #33445A; text-decoration: none">Terms</a>
+<a href="#about" style="color: #33445A; text-decoration: none">About us</a>
+<a href="#audit" style="background: #0B7A5C; color: #FFFFFF; text-decoration: none; padding: 11px 18px; border-radius: 8px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Get a free audit</a>
+</div>
+</nav>
+</header>
+
+<section id="top" style="background: #10213A; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 88px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 999 1 560px; min-width: 0">
+<p style="margin: 0 0 18px; font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #E8B54A">For creators · Run by growth operators</p>
+<h1 style="margin: 0 0 24px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 60px; line-height: 1.04; letter-spacing: -0.025em">Your audience already trusts you. Let's turn that trust into income.</h1>
+<p style="margin: 0 0 36px; font-size: 20px; color: #C9D3DF; max-width: 600px">We audit your channel, show you exactly where the monetisation opportunities are, then build and launch the product with you. No retainer, no setup fee — we're paid only when you are.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<a href="#audit" style="background: #E8B54A; color: #10213A; text-decoration: none; padding: 16px 26px; border-radius: 10px; font-weight: 600; font-size: 17px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Book your free channel audit</a>
+<a href="#how" style="border: 1px solid #4A5D78; color: #FFFFFF; text-decoration: none; padding: 16px 26px; border-radius: 10px; font-weight: 600; font-size: 17px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">See how it works</a>
+</div>
+</div>
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<div style="background: #18304F; border-radius: 14px; padding: 22px 24px">
+<p style="margin: 0 0 4px; font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 700; color: #E8B54A">$0</p>
+<p style="margin: 0; color: #C9D3DF; font-size: 15px">Upfront. The audit, the plan and the build cost you nothing out of pocket.</p>
+</div>
+<div style="background: #18304F; border-radius: 14px; padding: 22px 24px">
+<p style="margin: 0 0 4px; font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 700; color: #E8B54A">100%</p>
+<p style="margin: 0; color: #C9D3DF; font-size: 15px">Performance based. Our only income is a share of what your product sells.</p>
+</div>
+<div style="background: #18304F; border-radius: 14px; padding: 22px 24px">
+<p style="margin: 0 0 4px; font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 700; color: #E8B54A">Instant</p>
+<p style="margin: 0; color: #C9D3DF; font-size: 15px">Commission is split the moment a customer's payment is received.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="how" style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #0B7A5C">How it works</p>
+<h2 style="margin: 0 0 48px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 42px; line-height: 1.1; letter-spacing: -0.02em; max-width: 720px">From "I should sell something" to a product that pays — in four steps.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<div style="border: 1px solid #E3E8E6; border-radius: 14px; padding: 28px">
+<p style="margin: 0 0 18px; font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; color: #0B7A5C">01</p>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Channel audit</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">We study your content, comments and engagement to learn what your audience keeps asking for — and would happily pay for.</p>
+</div>
+<div style="border: 1px solid #E3E8E6; border-radius: 14px; padding: 28px">
+<p style="margin: 0 0 18px; font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; color: #0B7A5C">02</p>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Opportunity map</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">You get a clear picture of where the money is: which product fits, who buys it, how to price it, and how to launch it.</p>
+</div>
+<div style="border: 1px solid #E3E8E6; border-radius: 14px; padding: 28px">
+<p style="margin: 0 0 18px; font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; color: #0B7A5C">03</p>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Build &amp; launch</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">We do the heavy lifting — product, sales page, checkout and launch plan — while you keep creating and stay the face of it.</p>
+</div>
+<div style="border: 1px solid #E3E8E6; border-radius: 14px; padding: 28px">
+<p style="margin: 0 0 18px; font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; color: #0B7A5C">04</p>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Get paid</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Every sale is split automatically the moment payment lands. No invoices, no chasing, no waiting for month-end.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="build" style="background: #F2F5F3">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #0B7A5C">What we build</p>
+<h2 style="margin: 0 0 16px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 42px; line-height: 1.1; letter-spacing: -0.02em; max-width: 720px">The right product for your audience — not a one-size template.</h2>
+<p style="margin: 0 0 48px; font-size: 18px; color: #4A5A6E; max-width: 680px">The audit decides what we build. These are the most common ways we help creators monetise.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 14px; padding: 32px">
+<div aria-hidden="true" style="width: 48px; height: 48px; border-radius: 12px; background: #10213A; display: flex; align-items: center; justify-content: center; margin-bottom: 22px">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8B54A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v15H6a2 2 0 0 0-2 2z"></path><path d="M4 19.5A2 2 0 0 0 6 21h14"></path></svg>
+</div>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 23px; font-weight: 600">A book</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Turn your best ideas into an ebook, guide or workbook your followers can buy, keep and share.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 32px">
+<div aria-hidden="true" style="width: 48px; height: 48px; border-radius: 12px; background: #10213A; display: flex; align-items: center; justify-content: center; margin-bottom: 22px">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8B54A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="15" height="14" rx="2"></rect><path d="M17 10l5-3v10l-5-3z"></path></svg>
+</div>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 23px; font-weight: 600">Video trainings</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Package what you teach for free into a structured course that takes people from where they are to where they want to be.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 32px">
+<div aria-hidden="true" style="width: 48px; height: 48px; border-radius: 12px; background: #10213A; display: flex; align-items: center; justify-content: center; margin-bottom: 22px">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8B54A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20a6.5 6.5 0 0 1 13 0"></path><circle cx="17.5" cy="9" r="2.5"></circle><path d="M16 14.2a5 5 0 0 1 5.5 5.3"></path></svg>
+</div>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 23px; font-weight: 600">A paid group</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">A membership community where your most engaged fans get closer access to you — and to each other — for a monthly fee.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 32px">
+<div aria-hidden="true" style="width: 48px; height: 48px; border-radius: 12px; background: #10213A; display: flex; align-items: center; justify-content: center; margin-bottom: 22px">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8B54A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"></path><path d="M9 10.5h6"></path><path d="M9 13.5h4"></path></svg>
+</div>
+<h3 style="margin: 0 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: 23px; font-weight: 600">Coaching</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">One-to-one or group coaching, set up with booking, payments and onboarding so you can focus on the sessions.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="terms" style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
+<div style="flex: 1 1 380px; min-width: 0">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #0B7A5C">Strictly performance</p>
+<h2 style="margin: 0 0 20px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 42px; line-height: 1.1; letter-spacing: -0.02em">We only earn when you do.</h2>
+<p style="margin: 0; font-size: 18px; color: #4A5A6E">Our incentives are tied to yours from day one. If the product doesn't sell, we don't get paid — so we only build things we believe your audience will buy.</p>
+</div>
+<div style="flex: 999 1 520px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+<div style="border-top: 3px solid #0B7A5C; padding-top: 18px">
+<h3 style="margin: 0 0 8px; font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600">No retainers or setup fees</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">The audit, planning and build are on us. You never write a cheque to get started.</p>
+</div>
+<div style="border-top: 3px solid #0B7A5C; padding-top: 18px">
+<h3 style="margin: 0 0 8px; font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600">Commission paid instantly</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Each sale is split the moment the customer's payment is received — you see your share right away.</p>
+</div>
+<div style="border-top: 3px solid #0B7A5C; padding-top: 18px">
+<h3 style="margin: 0 0 8px; font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600">A split agreed up front</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Every project has a written revenue share before any work starts: [YOUR REVENUE SPLIT].</p>
+</div>
+<div style="border-top: 3px solid #0B7A5C; padding-top: 18px">
+<h3 style="margin: 0 0 8px; font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600">Your brand stays yours</h3>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">You're the face and the voice. We work behind the scenes on product, systems and growth.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="about" style="background: #F2F5F3">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #0B7A5C">About us</p>
+<h2 style="margin: 0 0 16px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 42px; line-height: 1.1; letter-spacing: -0.02em; max-width: 760px">Five growth operators. Three countries. One shared playbook.</h2>
+<p style="margin: 0 0 48px; font-size: 18px; color: #4A5A6E; max-width: 720px">We're an operator mastermind spanning the US and UK, with backgrounds in strategy, analytics, trading, engineering, tourism and coaching. Whatever your niche, there's likely someone on the team who already speaks your audience's language.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 24px">
+
+<article style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="./assets/d2d95f4048d3c9aa5e521454e398eda8.jpg" alt="Kenny Anderson" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex-shrink: 0">
+<div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Kenny Anderson</h3>
+<p style="margin: 2px 0 0; font-size: 14px; color: #5A6A7E">Minneapolis, USA</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; font-weight: 600; color: #0B7A5C; text-transform: uppercase; letter-spacing: 0.06em">Strategy · Gardening · Travel</p>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Entrepreneur and growth operator with 20+ years in business and an MBA in Strategy &amp; Entrepreneurship. Project &amp; Program Management certified and a Lean Six Sigma Green Belt, Kenny brings management consulting and ag-biotech commercialisation experience to the gardening and travel space.</p>
+</article>
+
+<article style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="./assets/295657730cea4e5e8668e33485b4fec6.jpg" alt="Spencer Stern" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex-shrink: 0">
+<div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Spencer Stern</h3>
+<p style="margin: 2px 0 0; font-size: 14px; color: #5A6A7E">London, UK</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; font-weight: 600; color: #0B7A5C; text-transform: uppercase; letter-spacing: 0.06em">Analytics · Experimentation · Product</p>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Product and experimentation analyst with nine years at Reach plc, specialising in A/B testing and behavioural analytics. Author of the 17-book Socionics Made Simple series, creator of the Socionics Insight reference site, and builder of Socion, a matching app with 155+ founding members.</p>
+</article>
+
+<article style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="./assets/2d9952e170fd5f124bb925fcd65d8d8f.jpg" alt="Robin Taggart" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex-shrink: 0">
+<div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Robin Taggart</h3>
+<p style="margin: 2px 0 0; font-size: 14px; color: #5A6A7E">Northern Ireland, UK</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; font-weight: 600; color: #0B7A5C; text-transform: uppercase; letter-spacing: 0.06em">Tourism · Coaching · Consulting</p>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Founder of Causeway Giant Adventures, offering bespoke small-group and luxury tours of the Causeway Coast. An OCN Level 3 tour guide and ILM Level 7 executive coach, Robin also runs Atlantic Business Consulting and Capecastle Farm — with supporting-actor credits on Game of Thrones, Derry Girls and Line of Duty.</p>
+</article>
+
+<article style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="./assets/4e915807eed3be29dcb21f78a03712a0.jpg" alt="Tom Carter" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex-shrink: 0">
+<div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Tom Carter</h3>
+<p style="margin: 2px 0 0; font-size: 14px; color: #5A6A7E">Swansea, UK</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; font-weight: 600; color: #0B7A5C; text-transform: uppercase; letter-spacing: 0.06em">Markets · Paid communities</p>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Day trader and founder of ORO WEALTH, focused on AI-driven gold trading tools. Tom also runs INARI WEALTH, a Telegram channel of around 450 subscribers with market commentary and paid-access announcements, and partners with others who run trading communities.</p>
+</article>
+
+<article style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="./assets/b8354ea657fe423f6cd42326d43d06c7.jpg" alt="TyJ Arambulo" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex-shrink: 0">
+<div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">TyJ Arambulo</h3>
+<p style="margin: 2px 0 0; font-size: 14px; color: #5A6A7E">San Diego, USA</p>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; font-weight: 600; color: #0B7A5C; text-transform: uppercase; letter-spacing: 0.06em">Engineering · Personal growth</p>
+<p style="margin: 0; color: #4A5A6E; font-size: 16px">Self-employed civil engineer specialising in site civil design for airports, educated at Norwich University and a LEED AP. A husband and father, TyJ shares personal growth content on Instagram — building, learning and helping others do the same — and is active on Strava.</p>
+</article>
+
+</div>
+</div>
+</section>
+
+<section id="audit" style="background: #10213A; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-start">
+<div style="flex: 1 1 400px; min-width: 0">
+<h2 style="margin: 0 0 20px; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 44px; line-height: 1.08; letter-spacing: -0.02em">Find out what your audience would pay for.</h2>
+<p style="margin: 0; font-size: 18px; color: #C9D3DF">Request a free channel audit. We'll review your content and come back with the monetisation opportunities we see — no cost, no obligation.</p>
+</div>
+<form action="https://hook.us1.make.com/f3baef7t39jzy4nyetsd0d9ekrawvlxk" method="post" style="flex: 1 1 400px; min-width: 0; background: #18304F; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="f-name" style="font-size: 14px; font-weight: 600; color: #FFFFFF">Your name</label>
+<input id="f-name" name="name" type="text" autocomplete="name" required="" style="min-height: 48px; border-radius: 8px; border: 1px solid #4A5D78; background: #10213A; color: #FFFFFF; padding: 0 14px; font-size: 16px; font-family: inherit">
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="f-email" style="font-size: 14px; font-weight: 600; color: #FFFFFF">Email</label>
+<input id="f-email" name="email" type="email" autocomplete="email" required="" style="min-height: 48px; border-radius: 8px; border: 1px solid #4A5D78; background: #10213A; color: #FFFFFF; padding: 0 14px; font-size: 16px; font-family: inherit">
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="f-channel" style="font-size: 14px; font-weight: 600; color: #FFFFFF">Link to your main channel</label>
+<input id="f-channel" name="channel_url" type="url" required="" placeholder="YouTube, Instagram, TikTok, podcast…" style="min-height: 48px; border-radius: 8px; border: 1px solid #4A5D78; background: #10213A; color: #FFFFFF; padding: 0 14px; font-size: 16px; font-family: inherit">
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="f-size" style="font-size: 14px; font-weight: 600; color: #FFFFFF">Approximate audience size</label>
+<select id="f-size" name="audience_size" style="min-height: 48px; border-radius: 8px; border: 1px solid #4A5D78; background: #10213A; color: #FFFFFF; padding: 0 12px; font-size: 16px; font-family: inherit">
+<option>Under 5,000</option>
+<option>5,000 – 25,000</option>
+<option>25,000 – 100,000</option>
+<option>100,000 – 500,000</option>
+<option>500,000 – 1,000,000</option>
+<option>1,000,000+</option>
+</select>
+</div>
+<button type="submit" style="min-height: 52px; border: none; border-radius: 10px; background: #E8B54A; color: #10213A; font-size: 17px; font-weight: 600; font-family: inherit; cursor: pointer; margin-top: 6px">Request my free audit</button>
+</form>
+</div>
+</section>
+
+<footer style="background: #0A1628; color: #9FB0C4">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 14px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; color: #FFFFFF">Monitise Mastermind</span>
+<span>Performance-based creator monetisation · US &amp; UK</span>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4600}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
 </body>
 </html>
